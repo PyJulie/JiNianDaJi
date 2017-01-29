@@ -73,7 +73,6 @@ def getUUID():
     r.encoding = 'utf-8'
     data = r.text
  
-    # print(data)
  
     # window.QRLogin.code = 200; window.QRLogin.uuid = "oZwt_bFfRg==";
     regx = r'window.QRLogin.code = (\d+); window.QRLogin.uuid = "(\S+?)"'
@@ -126,7 +125,6 @@ def waitForLogin():
     r.encoding = 'utf-8'
     data = r.text
  
-    # print(data)
  
     # window.code=500;
     regx = r'window.code=(\d+);'
