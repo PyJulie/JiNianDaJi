@@ -33,7 +33,6 @@ pass_ticket = ''
 deviceId = 'e000000000000000'
  
 BaseRequest = {}
- 
 ContactList = []
 My = []
 SyncKey = []
